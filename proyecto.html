@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen de Etiquetas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 6px 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resumen de Etiquetas HTML</h1>
+
+    <section>
+        <h2>1. Etiquetas Básicas</h2>
+        <p>Ejemplo de párrafo con la etiqueta <code>&lt;p&gt;</code>.</p>
+    </section>
+
+    <section>
+        <h2>2. Etiquetas de Tablas</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>22</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>3. Etiquetas de Listas</h2>
+
+        <h3>Lista Ordenada (ol)</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h3>Lista No Ordenada (ul)</h3>
+        <ul>
+            <li>Manzana</li>
+            <li>Banano</li>
+            <li>Sandía</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Etiquetas de Formularios</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="genero">Género:</label><br>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+</body>
+</html>
